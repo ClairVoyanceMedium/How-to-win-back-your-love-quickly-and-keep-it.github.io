@@ -1,49 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Sitemap for https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/
+  Optimized Sitemap for https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/
   Last updated: 2025-02-24
-  This sitemap is optimized for GitHub Pages and the Canadian market.
-  It includes language-specific pages and examples of regional targeting (e.g., Ontario).
-  Adjust or expand the list below according to your site's actual architecture.
+  Designed for a GitHub Pages static site with targeted optimization for the Canadian market.
+  Features:
+    - Alternate language links (English & French) via hreflang annotations.
+    - Regional pages for Ontario and Quebec (if applicable).
+    - Tailored change frequencies and priorities for each page type.
+    - Multimedia page metadata inclusion.
+  Update regularly (ideally via an automated build process) to maintain accuracy.
 -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage (default: English) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage (default: English) with alternate French version -->
   <url>
     <loc>https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/</loc>
     <lastmod>2025-02-24</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/fr/"/>
   </url>
-  
-  <!-- French version targeting French-speaking Canadians -->
+
+  <!-- French homepage version (targeting French-speaking Canadians) -->
   <url>
     <loc>https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/fr/</loc>
     <lastmod>2025-02-24</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.90</priority>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/"/>
   </url>
-  
-  <!-- Example: Regional page for Ontario (if applicable) -->
+
+  <!-- Regional page for Ontario -->
   <url>
     <loc>https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/on/</loc>
     <lastmod>2025-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/on/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/on/fr/"/>
   </url>
-  
-  <!-- Example: Product page (e.g., for a specific ritual) -->
+
+  <!-- Regional page for Quebec (example) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/qc/</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/qc/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/qc/fr/"/>
+  </url>
+
+  <!-- Product page example (e.g., for a specific ritual) -->
   <url>
     <loc>https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/product/red-magic</loc>
     <lastmod>2025-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/product/red-magic"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/fr/product/red-magic"/>
   </url>
-  
-  <!-- Example: Blog or informational pages -->
+
+  <!-- Blog page example -->
   <url>
     <loc>https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/blog/</loc>
     <lastmod>2025-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/blog/"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/fr/blog/"/>
   </url>
+
+  <!-- Multimedia page example (e.g., image gallery or video) -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/images/red-magic-demo.jpg</loc>
+    <lastmod>2025-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+    <image:image>
+      <image:loc>https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/images/red-magic-demo.jpg</image:loc>
+      <image:caption>Red Magic Ritual Demo</image:caption>
+      <image:title>Red Magic Ritual - Demonstration</image:title>
+    </image:image>
+  </url>
+
 </urlset>
