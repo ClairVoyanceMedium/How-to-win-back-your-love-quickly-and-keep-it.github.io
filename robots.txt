@@ -1,15 +1,17 @@
 # robots.txt for https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/
-# Last updated: 24 February 2025, 16:30 EST
+# Last updated: 24 February 2025, 16:45 EST
 #
 # This file is designed to:
 # • Maximize indexing on search engines (mobile, images, videos)
-# • Optimize for Canadian local SEO by targeting specific regions or cities
+# • Optimize for Canadian local SEO by targeting specific regions and languages
 # • Block unnecessary duplicate content from tracking parameters (e.g., utm_*)
 # • Protect sensitive directories (admin, login, test, etc.)
-# • Explicitly allow specialized crawlers (AI, voice assistants, geolocated bots)
+# • Explicitly allow specialized crawlers (AI, voice assistants, and geolocated bots)
 #
 # Regular updates are recommended to reflect site changes and evolving SEO best practices.
-
+# Regional sitemaps for Ontario (sitemap-on.xml) are activated by default.
+# For additional targeting, create and activate sitemaps for other provinces (e.g., Quebec) if applicable.
+#
 User-agent: *
 # Block sensitive directories
 Disallow: /admin/
@@ -39,14 +41,20 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
 # Sitemaps for comprehensive and targeted indexing:
 Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/sitemap.xml
 # Regional sitemap for Ontario (example for Canadian local SEO)
 Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/sitemap-on.xml
+# (Optional) Regional sitemap for Quebec if applicable
+# Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/sitemap-qc.xml
 # Sitemap for the French version targeting French-speaking Canadians
 Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/fr/sitemap.xml
-# Alternatively, you can use these for more granular language targeting:
+# Alternatively, for granular language targeting:
 # Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/ca-en/sitemap.xml
 # Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/ca-fr/sitemap.xml
-
-# Note: This file is reviewed periodically to ensure all directives stay aligned with the latest SEO best practices.
