@@ -1,24 +1,22 @@
 # robots.txt for https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/
-# Last updated: 24 February 2025, 16:45 EST
+# Last updated: 24 February 2025, 16:50 EST
 #
-# This file is designed to:
-# • Maximize indexing on search engines (mobile, images, videos)
-# • Optimize for Canadian local SEO by targeting specific regions and languages
-# • Block unnecessary duplicate content from tracking parameters (e.g., utm_*)
-# • Protect sensitive directories (admin, login, test, etc.)
-# • Explicitly allow specialized crawlers (AI, voice assistants, and geolocated bots)
+# This robots.txt is engineered to be unbeatable in the Canadian market by optimizing:
+#   - Mobile-first indexing (Googlebot-Mobile, Applebot, etc.)
+#   - Image and video indexing
+#   - Local SEO by region and language (regional sitemaps and language-specific targeting)
+#   - Protection of sensitive directories (admin, login, test, etc.)
+#   - Support for emerging crawlers (AlexaBot, Bingbot, Applebot, Amazonbot, etc.)
 #
-# Regular updates are recommended to reflect site changes and evolving SEO best practices.
-# Regional sitemaps for Ontario (sitemap-on.xml) are activated by default.
-# For additional targeting, create and activate sitemaps for other provinces (e.g., Quebec) if applicable.
+# Regular updates are essential to maintain peak performance and adhere to evolving SEO best practices.
 #
 User-agent: *
-# Block sensitive directories
+# Protect sensitive directories
 Disallow: /admin/
 Disallow: /login/
 Disallow: /private/
 Disallow: /test/
-# Block tracking parameters to prevent duplicate content issues
+# Block URLs with tracking parameters to prevent duplicate content issues
 Disallow: /*?*utm_*
 Allow: /
 
@@ -47,14 +45,18 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
+# Optional: Directive for additional crawlers (e.g., Yandex for international reach)
+User-agent: Yandex
+Allow: /
+
 # Sitemaps for comprehensive and targeted indexing:
 Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/sitemap.xml
-# Regional sitemap for Ontario (example for Canadian local SEO)
+# Regional sitemap for Ontario (active by default for Canadian local SEO)
 Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/sitemap-on.xml
-# (Optional) Regional sitemap for Quebec if applicable
+# Regional sitemap for Quebec (activate if content exists)
 # Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/sitemap-qc.xml
 # Sitemap for the French version targeting French-speaking Canadians
 Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/fr/sitemap.xml
-# Alternatively, for granular language targeting:
+# Optional sitemaps for finer segmentation (e.g., Canadian English and Canadian French)
 # Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/ca-en/sitemap.xml
 # Sitemap: https://clairvoyancemedium.github.io/How-to-win-back-your-love-quickly-and-keep-it.github.io/ca-fr/sitemap.xml
